@@ -15,7 +15,7 @@ const ServiceDetailsPage = () => {
             <>
                 <SEO 
                     title="Service Not Found | Ignition Consulting Group LLC"
-                    description="The service you are looking for does not exist. Explore our other business consulting services including strategic planning and digital transformation."
+                    description="The service you are looking for does not exist. Explore our other game development services including game design and mobile games."
                     canonical="https://ignitioncg.com/services"
                     noindex={true}
                 />
@@ -33,8 +33,8 @@ const ServiceDetailsPage = () => {
         <>
             <SEO 
                 title={`${service.title} Services - Expert Solutions | Ignition Consulting Group LLC`}
-                description={`${service.description} Get professional ${service.title.toLowerCase()} services from Ignition Consulting Group LLC. Expert team, proven results, and cutting-edge solutions.`}
-                keywords={`${service.title.toLowerCase()}, ${service.title.toLowerCase()} services, business consulting, strategic solutions, custom development`}
+                description={`${service.description} Get professional ${service.title.toLowerCase()} services from Ignition Consulting Group LLC. Expert team, proven results, and cutting-edge gaming solutions.`}
+                keywords={`${service.title.toLowerCase()}, ${service.title.toLowerCase()} services, game development, gaming solutions, game design`}
                 canonical={`https://ignitioncg.com/service-details/${serviceId}`}
             />
             <PageHero 

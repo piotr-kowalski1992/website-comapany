@@ -2,10 +2,8 @@ import React from 'react';
 import { FacebookIcon, TwitterIcon, LinkedinIcon } from './icons';
 
 const teamMembers = [
-    { name: 'Vincent Cooper', role: 'Designer', img: '/assets/images/team01.jpg' },
-    { name: 'Danielle Bryant', role: 'Designer', img: '/assets/images/team02.jpg' },
-    { name: 'Vincent Cooper', role: 'Designer', img: '/assets/images/team05.jpg' },
-    { name: 'Howard Holmes', role: 'Designer', img: '/assets/images/team04.jpg' },
+    { name: 'Piotr Kowalski', role: 'Chief Executive Officer', img: '/assets/images/WhatsApp Piotrc.jpg' },
+    { name: 'Tomasz Woźniak', role: 'Senior Developer', img: '/assets/images/WhatsApp Tomasz.jpg' },
 ];
 
 const SocialLink = ({ href, children }: { href: string, children: React.ReactNode }) => (
@@ -16,8 +14,8 @@ const SocialLink = ({ href, children }: { href: string, children: React.ReactNod
 
 const TeamMemberCard = ({ name, role, img }: { name: string, role: string, img: string }) => (
     <div className="group text-center">
-        <div className="relative overflow-hidden rounded-lg">
-            <img src={img} alt={name} className="w-full object-cover"/>
+        <div className="relative overflow-hidden rounded-lg h-80">
+            <img src={img} alt={name} className="w-full h-full object-cover"/>
             <div className="absolute inset-0 bg-dark-blue bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 flex items-center justify-center">
                 <div className="flex space-x-2 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
                     <SocialLink href="#"><FacebookIcon /></SocialLink>
@@ -41,10 +39,9 @@ const Team = () => {
                     <span className="text-primary font-bold">OUR TEAM</span>
                     <h2 className="text-4xl font-bold font-exo my-4">Best Expert Team</h2>
                 </div>
-                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    {teamMembers.map((member) => (
-                        <TeamMemberCard //key={index} 
-                                        {...member} />
+                <div className="grid sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                    {teamMembers.map((member, index) => (
+                        <TeamMemberCard key={index} {...member} />
                     ))}
                 </div>
             </div>

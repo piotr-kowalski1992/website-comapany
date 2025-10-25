@@ -29,9 +29,9 @@ const BlogPage = () => {
     return (
         <>
             <SEO 
-                title="Business Consulting Blog - Latest Insights & Trends | Ignition Consulting Group LLC"
-                description="Stay updated with the latest business consulting trends, strategic planning insights, and industry news from Ignition Consulting Group LLC experts. Read our blog for valuable tips and knowledge."
-                keywords="business consulting blog, strategic planning insights, management consulting articles, business trends, consulting tips, industry insights"
+                title="Game Development Blog - Latest Gaming Insights & Trends | Ignition Consulting Group LLC"
+                description="Stay updated with the latest game development trends, gaming industry insights, and game design news from Ignition Consulting Group LLC experts. Read our blog for valuable tips and knowledge."
+                keywords="game development blog, gaming insights, game design articles, gaming trends, game development tips, industry insights"
                 canonical="https://ignitioncg.com/blog"
             />
             <PageHero title="Our Blog" breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Blog' }]} />
