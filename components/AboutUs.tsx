@@ -10,7 +10,7 @@ const AboutUs = () => {
                         <img src="/assets/images/about_img_02.png" alt="About main" className="rounded-lg shadow-lg"/>
                         <img src="/assets/images/about_img_03.png" alt="About secondary" className="absolute -bottom-12 -right-12 border-8 border-[#0a0e1a] rounded-lg shadow-2xl hidden md:block"/>
                         <div className="absolute -bottom-8 -left-8 bg-orange-500 text-white p-6 rounded-full shadow-xl text-center w-40 h-40 flex flex-col justify-center">
-                            <span className="text-5xl font-extrabold font-exo">10</span>
+                            <span className="text-5xl font-extrabold font-exo">5</span>
                             <span className="font-semibold">Years Experience</span>
                         </div>
                     </div>
