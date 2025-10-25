@@ -31,14 +31,6 @@ const UnderDevelopmentPage: React.FC = () => {
           <p>Thank you for your patience and understanding</p>
           <p className="mt-2">We will be back soon with an improved version!</p>
         </div>
-
-        {/* Contact info */}
-        <div className="mt-8 flex flex-col items-center gap-2 text-slate-400 text-sm">
-          <p>For urgent inquiries, please contact us:</p>
-          <a href="mailto:support@pixeliumltd.com" className="text-slate-300 hover:text-white transition-colors underline">
-            support@pixeliumltd.com
-          </a>
-        </div>
       </div>
     </div>
   );
