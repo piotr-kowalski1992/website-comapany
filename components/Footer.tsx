@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <p className="font-semibold">Mail Us On:</p>
-                        <p>info@ignitioncg.com</p>
+                        <p>office@ignitionglobal.net</p>
                     </div>
                 </div>
                  <div className="flex items-center space-x-4 py-4 md:py-8 lg:py-0">
@@ -75,12 +75,12 @@ const Footer = () => {
                 <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-white"></span>
               </span>
             </h4>
-            <p className="my-6">Ignition Consulting Group LLC delivers innovative business solutions and strategic consulting services to help your company thrive.</p>
+            <p className="my-6">Ignition Consulting Group LLC delivers innovative game development services and immersive gaming experiences with cutting-edge technology.</p>
             <div className="flex items-start space-x-3 mb-6">
               <span className="flex-shrink-0 mt-1 w-5 h-5 border-2 border-orange-500 rounded-full flex items-center justify-center">
                  <svg className="w-3 h-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
               </span>
-              <p>Expert consulting and strategic planning for business growth.</p>
+              <p>Expert game development and creative gaming solutions.</p>
             </div>
             <div className="flex space-x-2">
               {[<FacebookIcon/>, <TwitterIcon/>, <LinkedinIcon/>, <InstagramIcon/>, <YoutubeIcon/>].map((icon, i) => (
@@ -113,13 +113,13 @@ const Footer = () => {
           {/* IT Services */}
           <div>
             <h4 className="text-white text-lg font-bold font-exo mb-4 relative uppercase">
-              IT SERVICES
+              GAME SERVICES
                <span className="absolute left-0 -bottom-2 h-0.5 w-16 bg-orange-500">
                 <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-white"></span>
               </span>
             </h4>
             <ul className="space-y-3 mt-6">
-              {['Web Development', 'Business Development', 'Product Management', 'UI/UX Design', 'Cloud services'].map(link => (
+              {['Game Development', 'Game Design', 'Mobile Games', '3D Modeling', 'Multiplayer Systems'].map(link => (
                 <li key={link}>
                   <a href="#" className="flex items-center hover:text-white transition-colors">
                     <ChevronRightIcon /> <span className="ml-2">{link}</span>
@@ -168,11 +168,11 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6 text-gray-400 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <p className="text-sm">Copyright © 2024 <a href="#" className="text-white hover:text-orange-500">Ignition Consulting Group LLC</a>. All Rights Reserved.</p>
           <div className="mt-4 md:mt-0 text-sm">
-            <a href="#" className="hover:text-white transition-colors">Terms & Condition</a>
+            <Link to="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Careers</a>
             <span className="mx-2">|</span>
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
           </div>
         </div>
       </div>

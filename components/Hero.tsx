@@ -7,9 +7,9 @@ const Hero = () => {
             <div className="absolute inset-0 bg-[#0a0e1a] opacity-90"></div>
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-3xl">
-                    <h1 className="text-4xl md:text-6xl font-extrabold font-exo text-white leading-tight mb-4 uppercase">Business Consulting Solutions</h1>
+                    <h1 className="text-4xl md:text-6xl font-extrabold font-exo text-white leading-tight mb-4 uppercase">Game Development Solutions</h1>
                     <p className="text-lg mb-8 text-gray-300">
-                        Transform your business with strategic consulting and innovative solutions. We deliver results-driven strategies that propel your company forward.
+                        Transform your gaming vision into reality with innovative game development and cutting-edge technology. We deliver immersive gaming experiences that captivate players worldwide.
                     </p>
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                         <a href="#" className="bg-orange-500 text-white font-bold py-4 px-8 rounded-md hover:bg-orange-600 transition-all duration-300 inline-flex items-center uppercase">

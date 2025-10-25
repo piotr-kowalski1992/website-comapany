@@ -9,9 +9,9 @@ const ProjectsPage = () => {
     return (
         <>
             <SEO 
-                title="Our Projects Portfolio - Successful Business Solutions by Ignition Consulting Group LLC"
-                description="Explore Ignition Consulting Group LLC's portfolio of successful business consulting projects including strategic transformations, business development initiatives, and organizational improvements. See our work and client success stories."
-                keywords="consulting projects, business transformation portfolio, success stories, case studies, consulting solutions, client results"
+                title="Our Game Portfolio - Successful Games by Ignition Consulting Group LLC"
+                description="Explore Ignition Consulting Group LLC's portfolio of successful game development projects including mobile games, indie games, and innovative gaming experiences. See our work and client success stories."
+                keywords="game portfolio, game projects, game development portfolio, success stories, gaming solutions, client games"
                 canonical="https://ignitioncg.com/projects"
             />
             <PageHero title="Our Projects" breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Projects' }]} />

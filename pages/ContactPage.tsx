@@ -54,8 +54,8 @@ const ContactPage = () => {
         <>
             <SEO 
                 title="Contact Ignition Consulting Group LLC - Get Your Free Consultation & Quote"
-                description="Contact Ignition Consulting Group LLC for professional business consulting services. Get a free consultation and quote for strategic planning, business development, and transformation services. Reach out to our expert team today!"
-                keywords="contact us, business consulting contact, free consultation, get a quote, consulting services inquiry, business advisory contact"
+                description="Contact Ignition Consulting Group LLC for professional game development services. Get a free consultation and quote for game design, mobile games, and gaming solutions. Reach out to our expert team today!"
+                keywords="contact us, game development contact, free consultation, get a quote, gaming services inquiry, game development contact"
                 canonical="https://ignitioncg.com/contact"
             />
             <PageHero title="Contact Us" breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Contact Us' }]} />

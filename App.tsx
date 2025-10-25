@@ -10,6 +10,8 @@ import BlogPage from './pages/BlogPage';
 import BlogDetailsPage from './pages/BlogDetailsPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 const Layout = () => {
   return (
@@ -26,7 +28,12 @@ const Layout = () => {
 function App() {
   return (
     <div className="bg-[#0a0e1a] text-gray-300 font-roboto">
-      <BrowserRouter>
+      <BrowserRouter
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        }}
+      >
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
@@ -37,6 +44,8 @@ function App() {
             <Route path="blog/:blogId" element={<BlogDetailsPage />} />
             <Route path="projects" element={<ProjectsPage />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="privacy" element={<PrivacyPage />} />
+            <Route path="terms" element={<TermsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

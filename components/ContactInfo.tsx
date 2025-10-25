@@ -31,8 +31,8 @@ const ContactInfo = () => {
         {
             icon: <MailIconV2 />,
             title: 'Message Us',
-            line1: 'info@ignitioncg.com',
-            line2: 'contact@ignitioncg.com'
+            line1: 'office@ignitionglobal.net',
+            line2: 'contact@ignitionglobal.net'
         },
     ];
 

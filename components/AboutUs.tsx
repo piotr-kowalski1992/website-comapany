@@ -18,12 +18,12 @@ const AboutUs = () => {
                         <span className="text-orange-500 font-bold uppercase">About Our Company</span>
                         <h2 className="text-4xl font-bold font-exo my-4 text-white">We Are The Best Game Development Solutions</h2>
                         <p className="mb-6 text-gray-400">
-                            Ignition Consulting Group LLC delivers strategic business consulting services that drive growth and innovation. Our expert team provides tailored solutions to transform your business.
+                            Ignition Consulting Group LLC delivers innovative game development services that bring your vision to life. Our expert team creates immersive gaming experiences with cutting-edge technology and creative excellence.
                         </p>
                         <ul className="space-y-3 mb-8">
-                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">Strategic planning and business development</span></li>
-                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">Innovative solutions for complex challenges</span></li>
-                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">Results-driven consulting approach</span></li>
+                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">Innovative game design and development</span></li>
+                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">Advanced gaming technologies and engines</span></li>
+                            <li className="flex items-center"><CheckIcon /><span className="ml-2 text-gray-300 font-semibold">End-to-end game production services</span></li>
                         </ul>
                         <a href="#" className="bg-orange-500 text-white font-bold py-4 px-8 rounded-md hover:bg-orange-600 transition-all duration-300 inline-flex items-center uppercase">
                             Read More <ArrowRightIcon />

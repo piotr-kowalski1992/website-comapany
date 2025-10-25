@@ -15,9 +15,9 @@ const HomePage = () => {
     return (
         <>
             <SEO 
-                title="Ignition Consulting Group LLC - Leading Business Consulting & Strategic Solutions"
-                description="Transform your business with Ignition Consulting Group LLC's expert consulting services. We specialize in strategic planning, business development, and organizational transformation. Get a free consultation today!"
-                keywords="business consulting, strategic planning, management consulting, business development, organizational transformation, consulting services, business strategy, corporate consulting, growth strategy"
+                title="Ignition Consulting Group LLC - Leading Game Development & Gaming Solutions"
+                description="Transform your gaming vision with Ignition Consulting Group LLC's expert game development services. We specialize in game design, mobile games, and immersive gaming experiences. Get a free consultation today!"
+                keywords="game development, game design, gaming solutions, mobile games, game production, indie games, gaming technology, game studio, interactive games"
                 canonical="https://ignitioncg.com/"
             />
             <Hero />

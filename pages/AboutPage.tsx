@@ -11,9 +11,9 @@ const AboutPage = () => {
     return (
         <>
             <SEO 
-                title="About Ignition Consulting Group LLC - Expert Consulting Team & Company History"
-                description="Learn about Ignition Consulting Group LLC's expert team, company history, and mission to deliver innovative business consulting solutions. Discover our values, expertise, and commitment to excellence."
-                keywords="about us, consulting team, business consulting company, management consultants, strategic advisors, company history, consulting expertise"
+                title="About Ignition Consulting Group LLC - Expert Game Development Team & Company History"
+                description="Learn about Ignition Consulting Group LLC's expert game development team, company history, and mission to deliver innovative gaming solutions. Discover our values, expertise, and commitment to excellence."
+                keywords="about us, game development team, gaming company, game developers, game designers, company history, gaming expertise"
                 canonical="https://ignitioncg.com/about"
             />
             <PageHero title="About Us" breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'About Us' }]} />

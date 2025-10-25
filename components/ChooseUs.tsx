@@ -40,7 +40,7 @@ const ChooseUs = () => {
                         <div>
                             {accordionData.map((item, index) => (
                                 <AccordionItem
-                                    //key={index}
+                                    key={index}
                                     title={item.title}
                                     content={item.content}
                                     isOpen={openIndex === index}
