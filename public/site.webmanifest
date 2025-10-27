@@ -1,7 +1,7 @@
 {
-  "name": "Ignition Consulting Group LLC - Professional Game Development",
-  "short_name": "Ignition Games",
-  "description": "Professional game development, innovative gaming experiences, and immersive gaming solutions",
+  "name": "Ignition Consulting Group LLC - IT Consulting & Business Solutions",
+  "short_name": "Ignition CG",
+  "description": "Professional IT consulting, innovative business solutions, and comprehensive consulting services",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0e1a",
@@ -10,7 +10,7 @@
   "scope": "/",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["games", "entertainment", "technology"],
+  "categories": ["business", "consulting", "technology"],
   "icons": [
     {
       "src": "/assets/images/PixeliumLogo.png",

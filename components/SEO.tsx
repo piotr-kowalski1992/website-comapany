@@ -11,9 +11,9 @@ interface SEOProps {
 }
 
 const SEO = ({ 
-  title = "Ignition Consulting Group LLC - Professional Game Development & Gaming Solutions",
-  description = "Ignition Consulting Group LLC offers cutting-edge game development, innovative gaming experiences, and creative solutions. Expert team delivering immersive games for players worldwide.",
-  keywords = "game development, gaming solutions, game design, mobile games, game production, indie games, gaming technology",
+  title = "Ignition Consulting Group LLC - IT Consulting & Business Solutions",
+  description = "Ignition Consulting Group LLC offers cutting-edge IT consulting, innovative business solutions, and strategic consulting services. Expert team delivering comprehensive business transformation.",
+  keywords = "IT consulting, business solutions, strategic planning, business development, management consulting, digital transformation, business consulting",
   canonical = "https://ignitioncg.com/",
   ogImage = "https://ignitioncg.com/assets/images/og-image.jpg",
   ogType = "website",

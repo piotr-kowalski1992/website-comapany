@@ -22,7 +22,7 @@ const PrivacyPage = () => {
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">1. Introduction</h2>
                             <p className="text-gray-600 mb-6">
-                                Ignition Consulting Group LLC ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our game development services.
+                                Ignition Consulting Group LLC ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our IT consulting and business solutions services.
                             </p>
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">2. Information We Collect</h2>

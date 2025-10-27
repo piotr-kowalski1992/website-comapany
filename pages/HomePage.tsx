@@ -6,7 +6,6 @@ import AboutUs from '../components/AboutUs';
 import Services from '../components/Services';
 import ChooseUs from '../components/ChooseUs';
 import Projects from '../components/Projects';
-import Counter from '../components/Counter';
 import Testimonials from '../components/Testimonials';
 import Blog from '../components/Blog';
 import Brands from '../components/Brands';
@@ -15,9 +14,9 @@ const HomePage = () => {
     return (
         <>
             <SEO 
-                title="Ignition Consulting Group LLC - Leading Game Development & Gaming Solutions"
-                description="Transform your gaming vision with Ignition Consulting Group LLC's expert game development services. We specialize in game design, mobile games, and immersive gaming experiences. Get a free consultation today!"
-                keywords="game development, game design, gaming solutions, mobile games, game production, indie games, gaming technology, game studio, interactive games"
+                title="Ignition Consulting Group LLC - IT Consulting & Business Solutions"
+                description="Transform your business with Ignition Consulting Group LLC's expert IT consulting and business solutions. We specialize in strategic planning, business development, and management consulting. Get a free consultation today!"
+                keywords="IT consulting, business solutions, strategic planning, business development, management consulting, digital transformation, business consulting, IT services"
                 canonical="https://ignitioncg.com/"
             />
             <Hero />
@@ -26,7 +25,6 @@ const HomePage = () => {
             <Services />
             <ChooseUs />
             <Projects />
-            <Counter />
             <Testimonials />
             <Blog />
             <Brands />

@@ -5,8 +5,8 @@ import { FacebookIcon, TwitterIcon, LinkedinIcon, InstagramIcon, YoutubeIcon, Ph
 const Footer = () => {
   const quickLinks = [
     { name: 'About Us', path: '/about' },
-    { name: 'Team', path: '#' },
-    { name: 'Faq', path: '#' },
+    { name: 'Services', path: '/services' },
+    { name: 'Blog', path: '/blog' },
     { name: 'Projects', path: '/projects' },
     { name: 'Contact us', path: '/contact' }
   ];
@@ -75,18 +75,18 @@ const Footer = () => {
                 <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-white"></span>
               </span>
             </h4>
-            <p className="my-6">Ignition Consulting Group LLC delivers innovative game development services and immersive gaming experiences with cutting-edge technology.</p>
+            <p className="my-6">Ignition Consulting Group LLC delivers innovative IT consulting and business solutions, empowering companies with strategic guidance and cutting-edge technology.</p>
             <div className="flex items-start space-x-3 mb-6">
               <span className="flex-shrink-0 mt-1 w-5 h-5 border-2 border-orange-500 rounded-full flex items-center justify-center">
                  <svg className="w-3 h-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
               </span>
-              <p>Expert game development and creative gaming solutions.</p>
+              <p>Expert IT consulting and strategic business transformation solutions.</p>
             </div>
             <div className="flex space-x-2">
               {[<FacebookIcon/>, <TwitterIcon/>, <LinkedinIcon/>, <InstagramIcon/>, <YoutubeIcon/>].map((icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 border border-gray-700 rounded-full flex items-center justify-center text-gray-400 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-colors">
+                <div key={i} className="w-10 h-10 border border-gray-700 rounded-full flex items-center justify-center text-gray-400">
                   {icon}
-                </a>
+                </div>
               ))}
             </div>
           </div>
@@ -113,17 +113,17 @@ const Footer = () => {
           {/* IT Services */}
           <div>
             <h4 className="text-white text-lg font-bold font-exo mb-4 relative uppercase">
-              GAME SERVICES
+              IT SERVICES
                <span className="absolute left-0 -bottom-2 h-0.5 w-16 bg-orange-500">
                 <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-white"></span>
               </span>
             </h4>
             <ul className="space-y-3 mt-6">
-              {['Game Development', 'Game Design', 'Mobile Games', '3D Modeling', 'Multiplayer Systems'].map(link => (
+              {['Business Consulting', 'Digital Transformation', 'IT Strategy', 'Process Optimization', 'Technology Solutions'].map(link => (
                 <li key={link}>
-                  <a href="#" className="flex items-center hover:text-white transition-colors">
+                  <Link to="/services" className="flex items-center hover:text-white transition-colors">
                     <ChevronRightIcon /> <span className="ml-2">{link}</span>
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -139,22 +139,26 @@ const Footer = () => {
             </h4>
             <div className="space-y-4 mt-6">
               <div className="flex items-center space-x-4">
-                <img src="/assets/images/blog14.png" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
+                <img src="/assets/images/b_details04.jpg" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
                 <div>
-                  <h5 className="text-white font-semibold hover:text-brand-purple transition-colors leading-tight"><a href="#">Unsatiable Entreaties May Collecting Power.</a></h5>
+                  <h5 className="text-white font-semibold hover:text-orange-500 transition-colors leading-tight">
+                    <Link to="/blog/the-power-of-ui-ux">Why Great UI/UX is More Than Just a Pretty Face</Link>
+                  </h5>
                   <div className="flex items-center text-sm mt-1">
                     <CalendarIcon />
-                    <span className="ml-2">Feb 13 2023</span>
+                    <span className="ml-2">Sep 05 2024</span>
                   </div>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <img src="/assets/images/blog2.png" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
+                <img src="/assets/images/b_details03.jpg" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
                 <div>
-                  <h5 className="text-white font-semibold hover:text-brand-purple transition-colors leading-tight"><a href="#">Regional Manager Limited Time Management,</a></h5>
+                  <h5 className="text-white font-semibold hover:text-orange-500 transition-colors leading-tight">
+                    <Link to="/blog/agile-project-management">Mastering Agile for Efficient Project Management</Link>
+                  </h5>
                   <div className="flex items-center text-sm mt-1">
                     <CalendarIcon />
-                    <span className="ml-2">Feb 13 2023</span>
+                    <span className="ml-2">Sep 02 2024</span>
                   </div>
                 </div>
               </div>
@@ -166,11 +170,9 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="bg-[#0a0d1f] border-t border-gray-800">
         <div className="container mx-auto px-4 py-6 text-gray-400 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          <p className="text-sm">Copyright © 2024 <a href="#" className="text-white hover:text-orange-500">Ignition Consulting Group LLC</a>. All Rights Reserved.</p>
+          <p className="text-sm">Copyright © 2024 <Link to="/" className="text-white hover:text-orange-500">Ignition Consulting Group LLC</Link>. All Rights Reserved.</p>
           <div className="mt-4 md:mt-0 text-sm">
             <Link to="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
-            <span className="mx-2">|</span>
-            <a href="#" className="hover:text-white transition-colors">Careers</a>
             <span className="mx-2">|</span>
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
           </div>
@@ -178,12 +180,13 @@ const Footer = () => {
       </div>
 
       {/* Scroll to top button */}
-      <a href="#root"
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         className="fixed bottom-8 right-8 w-12 h-12 bg-orange-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-orange-600 transition-all duration-300 z-50"
         aria-label="Scroll to top"
       >
         <ArrowUpIcon />
-      </a>
+      </button>
     </footer>
   );
 };

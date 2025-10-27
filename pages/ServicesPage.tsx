@@ -9,9 +9,9 @@ const ServicesPage = () => {
     return (
         <>
             <SEO 
-                title="Game Development Services - Game Design & Production | Ignition Consulting Group LLC"
-                description="Explore Ignition Consulting Group LLC's comprehensive game development services including game design, mobile games, 3D modeling, multiplayer systems, and game production. Get expert consultation today!"
-                keywords="game development services, game design, mobile game development, 3D modeling, multiplayer games, game production, gaming solutions"
+                title="IT Consulting & Business Solutions Services | Ignition Consulting Group LLC"
+                description="Explore Ignition Consulting Group LLC's comprehensive IT consulting and business solutions including strategic planning, digital transformation, IT management, data security, and business reform. Get expert consultation today!"
+                keywords="IT consulting services, business solutions, strategic planning, digital transformation, IT management, data security, business reform, consulting services"
                 canonical="https://ignitioncg.com/services"
             />
             <PageHero title="Our Services" breadcrumbs={[{ name: 'Home', path: '/' }, { name: 'Services' }]} />

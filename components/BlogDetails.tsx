@@ -39,7 +39,7 @@ const BlogDetails = ({ post, prevPost, nextPost }: { post: BlogPost; prevPost?: 
                             <div>
                                 <span className="font-bold text-white mr-2">Tags:</span>
                                 {post.tags.map(tag => (
-                                    <a key={tag} href="#" className="inline-block bg-[#1a1f2e] text-gray-300 px-3 py-1 rounded-md text-sm mr-2 hover:bg-orange-500 hover:text-white transition-colors border border-gray-700">{tag}</a>
+                                    <span key={tag} className="inline-block bg-[#1a1f2e] text-gray-300 px-3 py-1 rounded-md text-sm mr-2 border border-gray-700">{tag}</span>
                                 ))}
                             </div>
                         </div>

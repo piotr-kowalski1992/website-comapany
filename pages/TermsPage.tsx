@@ -27,7 +27,7 @@ const TermsPage = () => {
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">2. Description of Services</h2>
                             <p className="text-gray-600 mb-6">
-                                Ignition Consulting Group LLC provides game development services, including but not limited to game design, development, consulting, and related technology solutions. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time.
+                                Ignition Consulting Group LLC provides IT consulting and business solutions services, including but not limited to strategic planning, business development, IT management, digital transformation, and related technology consulting. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time.
                             </p>
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">3. User Accounts and Registration</h2>
@@ -66,7 +66,7 @@ const TermsPage = () => {
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">6. Service Agreements and Projects</h2>
                             <p className="text-gray-600 mb-6">
-                                Specific game development projects and consulting engagements will be governed by separate written agreements. These Terms apply to general website use and are supplemented by project-specific terms.
+                                Specific business consulting projects and service engagements will be governed by separate written agreements. These Terms apply to general website use and are supplemented by project-specific terms.
                             </p>
 
                             <h2 className="text-3xl font-bold font-exo text-gray-900 mt-12 mb-4">7. Payment and Fees</h2>
