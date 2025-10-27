@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -51,6 +51,23 @@ function App() {
       </BrowserRouter>
     </div>
   );
+}
+
+export default App;*/
+
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import UnderDevelopmentPage from './pages/UnderDevelopmentPage';
+
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="*" element={<UnderDevelopmentPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
