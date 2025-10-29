@@ -146,7 +146,7 @@ const Footer = () => {
                   </h5>
                   <div className="flex items-center text-sm mt-1">
                     <CalendarIcon />
-                    <span className="ml-2">Sep 05 2024</span>
+                    <span className="ml-2">Sep 05 2025</span>
                   </div>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Footer = () => {
                   </h5>
                   <div className="flex items-center text-sm mt-1">
                     <CalendarIcon />
-                    <span className="ml-2">Sep 02 2024</span>
+                    <span className="ml-2">Sep 02 2025</span>
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="bg-[#0a0d1f] border-t border-gray-800">
         <div className="container mx-auto px-4 py-6 text-gray-400 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          <p className="text-sm">Copyright © 2024 <Link to="/" className="text-white hover:text-orange-500">Ignition Consulting Group LLC</Link>. All Rights Reserved.</p>
+          <p className="text-sm">Copyright © 2025 <Link to="/" className="text-white hover:text-orange-500">Ignition Consulting Group LLC</Link>. All Rights Reserved.</p>
           <div className="mt-4 md:mt-0 text-sm">
             <Link to="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
             <span className="mx-2">|</span>

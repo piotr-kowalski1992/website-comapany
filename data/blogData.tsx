@@ -24,7 +24,7 @@ export const blogData: BlogPost[] = [
     {
         id: 'technology-support-non-profit',
         img: '/assets/images/blog14.png',
-        date: '26 June 2023',
+        date: '10 September 2025',
         author: 'Admin',
         title: 'Technology support allows erie non-profit to serve',
         category: 'Technology',
@@ -38,14 +38,14 @@ export const blogData: BlogPost[] = [
         ],
         tags: ['IT Solution', 'Technology', 'Cyber Security', 'Software'],
         comments: [
-            { author: 'Ricky Smith', date: 'June 21, 2023', text: 'Legal expertise and is client focused we enhance entrepreneurial environment flexible supportive, allowing our lawyers introduced', avatar: '/assets/images/team01.jpg' },
-            { author: 'Brooklyn Simmons', date: 'September 22, 2023', text: 'Legal expertise and is client focused we enhance entrepreneurial environment flexible supportive, allowing our lawyers', avatar: '/assets/images/team02.jpg' }
+            { author: 'Ricky Smith', date: 'September 11, 2025', text: 'Legal expertise and is client focused we enhance entrepreneurial environment flexible supportive, allowing our lawyers introduced', avatar: '/assets/images/team01.jpg' },
+            { author: 'Brooklyn Simmons', date: 'September 12, 2025', text: 'Legal expertise and is client focused we enhance entrepreneurial environment flexible supportive, allowing our lawyers', avatar: '/assets/images/team02.jpg' }
         ]
     },
     {
         id: 'distinctive-an-engage-users',
         img: '/assets/images/blog2.png',
-        date: '25 July, 2024',
+        date: '12 September 2025',
         author: 'Admin',
         title: 'Distinctive an Engage Users For Continous Best.',
         category: 'Development',
@@ -61,7 +61,7 @@ export const blogData: BlogPost[] = [
     {
         id: 'leverage-existing-platforms',
         img: '/assets/images/thumb1.png',
-        date: '26 July, 2024',
+        date: '15 September 2025',
         author: 'Admin',
         title: 'Leverage existing platforms with enterprise.',
         category: 'Cloud',
@@ -71,13 +71,13 @@ export const blogData: BlogPost[] = [
         ],
         tags: ['Cloud', 'SaaS', 'Infrastructure'],
         comments: [
-            { author: 'Jane Doe', date: 'July 27, 2024', text: 'Great article on cloud platforms! Very insightful.', avatar: '/assets/images/team03.jpg' }
+            { author: 'Jane Doe', date: 'September 16, 2025', text: 'Great article on cloud platforms! Very insightful.', avatar: '/assets/images/team03.jpg' }
         ]
     },
     {
         id: 'holding-company-bitech',
         img: '/assets/images/b_details01.jpg',
-        date: '27 July, 2024',
+        date: '18 September 2025',
         author: 'Admin',
         title: 'A Holding Company Called Bitech Announced.',
         category: 'Business',
@@ -89,11 +89,11 @@ export const blogData: BlogPost[] = [
         comments: []
     },
     {
-        id: 'cyber-security-trends-2024',
+        id: 'cyber-security-trends-2025',
         img: '/assets/images/b_details02.jpg',
-        date: '28 July, 2024',
+        date: '20 September 2025',
         author: 'Jane Smith',
-        title: 'Top 5 Cyber Security Trends to Watch in Late 2024',
+        title: 'Top 5 Cyber Security Trends to Watch in Late 2025',
         category: 'Cyber Security',
         excerpt: 'As technology evolves, so do the threats. Here are the top 5 cyber security trends that every business should be aware of to protect their valuable assets...',
         fullContent: [
@@ -103,13 +103,13 @@ export const blogData: BlogPost[] = [
         ],
         tags: ['Cyber Security', 'Data Protection', 'Trends'],
         comments: [
-            { author: 'Alex Johnson', date: 'July 29, 2024', text: 'This is a great overview. The section on zero-trust was particularly helpful for my team.', avatar: '/assets/images/team04.jpg' }
+            { author: 'Alex Johnson', date: 'September 21, 2025', text: 'This is a great overview. The section on zero-trust was particularly helpful for my team.', avatar: '/assets/images/team04.jpg' }
         ]
     },
      {
         id: 'agile-project-management',
         img: '/assets/images/b_details03.jpg',
-        date: '02 Aug, 2024',
+        date: '02 September 2025',
         author: 'John Doe',
         title: 'Mastering Agile for Efficient Project Management',
         category: 'IT Management',
@@ -120,14 +120,14 @@ export const blogData: BlogPost[] = [
         ],
         tags: ['Agile', 'Project Management', 'Scrum', 'Kanban'],
         comments: [
-            { author: 'Samantha Lee', date: 'Aug 03, 2024', text: 'Our team is just starting with Agile, and this was the perfect introduction. Thank you!', avatar: '/assets/images/team05.jpg' },
-            { author: 'David Chen', date: 'Aug 04, 2024', text: 'Well-written! I\'d add that having a good Scrum Master is crucial for success.', avatar: '/assets/images/testi_avatar.png' }
+            { author: 'Samantha Lee', date: 'September 03, 2025', text: 'Our team is just starting with Agile, and this was the perfect introduction. Thank you!', avatar: '/assets/images/team05.jpg' },
+            { author: 'David Chen', date: 'September 04, 2025', text: 'Well-written! I\'d add that having a good Scrum Master is crucial for success.', avatar: '/assets/images/testi_avatar.png' }
         ]
     },
     {
         id: 'the-power-of-ui-ux',
         img: '/assets/images/b_details04.jpg',
-        date: '05 Aug, 2024',
+        date: '05 September 2025',
         author: 'Emily Carter',
         title: 'Why Great UI/UX is More Than Just a Pretty Face',
         category: 'UI/UX Design',
@@ -139,7 +139,7 @@ export const blogData: BlogPost[] = [
         ],
         tags: ['UI', 'UX', 'Design Thinking', 'User Experience'],
         comments: [
-            { author: 'Michael Brown', date: 'Aug 06, 2024', text: 'Finally, an article that explains the business value of UX so clearly!', avatar: '/assets/images/testi_avatar_02.png' }
+            { author: 'Michael Brown', date: 'September 06, 2025', text: 'Finally, an article that explains the business value of UX so clearly!', avatar: '/assets/images/testi_avatar_02.png' }
         ]
     }
 ];
