@@ -50,22 +50,6 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Projects Page -->
-  <url>
-    <loc>https://ignitioncg.com/projects</loc>
-    <lastmod>2025-10-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Blog Page -->
-  <url>
-    <loc>https://ignitioncg.com/blog</loc>
-    <lastmod>2025-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
   <!-- Contact Page -->
   <url>
     <loc>https://ignitioncg.com/contact</loc>

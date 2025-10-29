@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon, PlayIcon } from './icons';
+import VideoModal from './VideoModal';
 
 const Hero = () => {
+    const [isVideoOpen, setIsVideoOpen] = useState(false);
+
     return (
         <section className="relative bg-cover bg-center pt-48 pb-32 text-white" style={{ backgroundImage: "url('/assets/images/bdrc-bg.jpg')" }}>
             <div className="absolute inset-0 bg-[#0a0e1a] opacity-90"></div>
@@ -16,7 +19,10 @@ const Hero = () => {
                         <Link to="/services" className="bg-orange-500 text-white font-bold py-4 px-8 rounded-md hover:bg-orange-600 transition-all duration-300 inline-flex items-center uppercase">
                             Discover More <ArrowRightIcon />
                         </Link>
-                        <button className="flex items-center space-x-3 text-white font-bold group">
+                        <button 
+                            onClick={() => setIsVideoOpen(true)}
+                            className="flex items-center space-x-3 text-white font-bold group"
+                        >
                             <div className="relative">
                                 <div className="w-16 h-16 bg-orange-600/30 rounded-full group-hover:animate-ping absolute"></div>
                                 <div className="w-16 h-16 bg-gradient-to-br from-orange-600 to-orange-700 rounded-full flex items-center justify-center shadow-lg">
@@ -28,6 +34,13 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Video Modal */}
+            <VideoModal
+                isOpen={isVideoOpen}
+                onClose={() => setIsVideoOpen(false)}
+                videoSrc="/assets/media/WhatsAppVideo 2025-10-29 at 12.15.55_a2bc03d5.mp4"
+            />
         </section>
     );
 };

@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -6,9 +6,6 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ServiceDetailsPage from './pages/ServiceDetailsPage';
-import BlogPage from './pages/BlogPage';
-import BlogDetailsPage from './pages/BlogDetailsPage';
-import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
@@ -40,9 +37,6 @@ function App() {
             <Route path="about" element={<AboutPage />} />
             <Route path="services" element={<ServicesPage />} />
             <Route path="service-details/:serviceId" element={<ServiceDetailsPage />} />
-            <Route path="blog" element={<BlogPage />} />
-            <Route path="blog/:blogId" element={<BlogDetailsPage />} />
-            <Route path="projects" element={<ProjectsPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="privacy" element={<PrivacyPage />} />
             <Route path="terms" element={<TermsPage />} />
@@ -53,9 +47,9 @@ function App() {
   );
 }
 
-export default App;*/
+export default App;
 
-
+/*
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UnderDevelopmentPage from './pages/UnderDevelopmentPage';
@@ -70,4 +64,4 @@ function App() {
     );
 }
 
-export default App;
+export default App;*/

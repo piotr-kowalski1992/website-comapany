@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FacebookIcon, TwitterIcon, LinkedinIcon, InstagramIcon, YoutubeIcon, PhoneIconV2, MailIconV2, LocationIcon, ChevronRightIcon, CalendarIcon, ArrowUpIcon } from './icons';
+import { FacebookIcon, TwitterIcon, LinkedinIcon, InstagramIcon, YoutubeIcon, PhoneIconV2, MailIconV2, LocationIcon, ChevronRightIcon, ArrowUpIcon } from './icons';
 
 const Footer = () => {
   const quickLinks = [
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Projects', path: '/projects' },
     { name: 'Contact us', path: '/contact' }
   ];
   
@@ -129,37 +127,40 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Recent Posts */}
+          {/* Contact Information */}
           <div>
             <h4 className="text-white text-lg font-bold font-exo mb-4 relative uppercase">
-              RECENT POSTS
+              CONTACT INFO
                <span className="absolute left-0 -bottom-2 h-0.5 w-16 bg-orange-500">
                 <span className="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-white"></span>
               </span>
             </h4>
             <div className="space-y-4 mt-6">
-              <div className="flex items-center space-x-4">
-                <img src="/assets/images/b_details04.jpg" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 mt-1">
+                  <PhoneIconV2 />
+                </div>
                 <div>
-                  <h5 className="text-white font-semibold hover:text-orange-500 transition-colors leading-tight">
-                    <Link to="/blog/the-power-of-ui-ux">Why Great UI/UX is More Than Just a Pretty Face</Link>
-                  </h5>
-                  <div className="flex items-center text-sm mt-1">
-                    <CalendarIcon />
-                    <span className="ml-2">Sep 05 2025</span>
-                  </div>
+                  <h5 className="text-white font-semibold">Phone:</h5>
+                  <p className="text-sm">+1 (940) 625-7018</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <img src="/assets/images/b_details03.jpg" alt="Blog post" className="rounded-md w-20 h-20 object-cover" />
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 mt-1">
+                  <MailIconV2 />
+                </div>
                 <div>
-                  <h5 className="text-white font-semibold hover:text-orange-500 transition-colors leading-tight">
-                    <Link to="/blog/agile-project-management">Mastering Agile for Efficient Project Management</Link>
-                  </h5>
-                  <div className="flex items-center text-sm mt-1">
-                    <CalendarIcon />
-                    <span className="ml-2">Sep 02 2025</span>
-                  </div>
+                  <h5 className="text-white font-semibold">Email:</h5>
+                  <p className="text-sm">office@ignitionglobal.net</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="flex-shrink-0 mt-1">
+                  <LocationIcon />
+                </div>
+                <div>
+                  <h5 className="text-white font-semibold">Address:</h5>
+                  <p className="text-sm">30 N Gould St Ste R, Sheridan, WY 82801</p>
                 </div>
               </div>
             </div>

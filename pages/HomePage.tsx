@@ -5,9 +5,7 @@ import Features from '../components/Features';
 import AboutUs from '../components/AboutUs';
 import Services from '../components/Services';
 import ChooseUs from '../components/ChooseUs';
-import Projects from '../components/Projects';
 import Testimonials from '../components/Testimonials';
-import Blog from '../components/Blog';
 import Brands from '../components/Brands';
 
 const HomePage = () => {
@@ -24,9 +22,7 @@ const HomePage = () => {
             <AboutUs />
             <Services />
             <ChooseUs />
-            <Projects />
             <Testimonials />
-            <Blog />
             <Brands />
         </>
     );
