@@ -2,7 +2,8 @@ import React from 'react';
 import { FacebookIcon, TwitterIcon, LinkedinIcon } from './icons';
 
 const teamMembers = [
-    { name: 'Piotr Kowalski', role: 'Chief Executive Officer', img: '/assets/images/WhatsApp_Piotr.jpg' },
+    { name: 'CEO', role: 'Chief Executive Officer', img: '/assets/images/CEO.jpg' },
+    { name: 'Piotr Kowalski', role: 'Co-Founder', img: '/assets/images/WhatsApp_Piotr.jpg' },
     { name: 'Tomasz Woźniak', role: 'Senior Developer', img: '/assets/images/WhatsApp_Tomasz.jpg' },
 ];
 
@@ -33,7 +34,7 @@ const Team = () => {
                     <span className="text-orange-500 font-bold uppercase">OUR TEAM</span>
                     <h2 className="text-4xl font-bold font-exo my-4 text-white">Best Expert Team</h2>
                 </div>
-                <div className="grid sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
                     {teamMembers.map((member) => (
                         <TeamMemberCard key={member.name} {...member} />
                     ))}
