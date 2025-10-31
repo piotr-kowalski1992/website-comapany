@@ -19,6 +19,7 @@ const Footer = () => {
                     <h3 className="text-3xl font-bold font-exo uppercase">
                         Ignition <span className="text-white">Consulting</span>
                     </h3>
+                    <p className="text-sm mt-1 opacity-90">Registration Number: 32-0829976</p>
                 </div>
                 <div className="flex items-center space-x-4 py-4 md:py-8 lg:py-0">
                     <div className="bg-white p-4 rounded-md">
@@ -162,6 +163,11 @@ const Footer = () => {
                   <h5 className="text-white font-semibold">Address:</h5>
                   <p className="text-sm">30 N Gould St Ste R, Sheridan, WY 82801</p>
                 </div>
+              </div>
+              <div className="mt-4 pt-4 border-t border-gray-700">
+                <p className="text-sm">
+                  <span className="text-white font-semibold">EIN:</span> 32-0829976
+                </p>
               </div>
             </div>
           </div>
